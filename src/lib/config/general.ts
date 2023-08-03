@@ -29,9 +29,9 @@ export const header: HeaderConfig = {
 export const footer: FooterConfig = {}
 
 export const date: DateConfig = {
-  locales: 'en-US',
+  locales: 'en-GB',
   options: {
-    year: '2-digit',
+    year: 'numeric',
     weekday: 'long',
     month: 'short',
     day: 'numeric'
