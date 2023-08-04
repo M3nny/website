@@ -112,6 +112,7 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies_shiki_twoslash: string;
 	export const npm_lifecycle_event: string;
 	export const npm_package_scripts_build: string;
+	export const npm_package_devDependencies__iconify_json_simple_icons: string;
 	export const npm_package_devDependencies_fenceparser: string;
 	export const npm_package_devDependencies_svelte: string;
 	export const npm_package_devDependencies_tslib: string;
@@ -260,6 +261,7 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies_shiki_twoslash: string;
 		npm_lifecycle_event: string;
 		npm_package_scripts_build: string;
+		npm_package_devDependencies__iconify_json_simple_icons: string;
 		npm_package_devDependencies_fenceparser: string;
 		npm_package_devDependencies_svelte: string;
 		npm_package_devDependencies_tslib: string;

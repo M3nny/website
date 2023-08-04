@@ -17,11 +17,15 @@ export const header: HeaderConfig = {
   nav: [
     {
       text: 'Get Started',
-      link: '/hello-world'
+      link: '/content'
     },
     {
       text: 'Elements',
-      link: '/hello-world/elements'
+      link: '/content/elements'
+    },
+    {
+      text: 'About',
+      link: '/about'
     }
   ]
 }

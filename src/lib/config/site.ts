@@ -11,7 +11,13 @@ export const site: SiteConfig = {
     avatar: '/assets/maskable@512.png',
     name: 'M3nny',
     status: '☕',
-    bio: 'I like trying out new stuff'
+    bio: 'I like trying out new stuff',
+    metadata: [
+      {
+        icon: 'i-simple-icons-github',
+        link: 'https://github.com/M3nny'
+      }
+    ]
   },
   themeColor: '#3D4451'
 }
