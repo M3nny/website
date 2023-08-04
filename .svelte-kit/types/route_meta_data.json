@@ -9,13 +9,7 @@
 	"/atom.xml": [
 		"src/routes/atom.xml/+server.ts"
 	],
-	"/content": [
-		"src/routes/+layout.ts"
-	],
-	"/content/elements": [
-		"src/routes/+layout.ts"
-	],
-	"/content/toc-disabled": [
+	"/content/seaward": [
 		"src/routes/+layout.ts"
 	],
 	"/feed.json": [
