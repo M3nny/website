@@ -9,6 +9,9 @@
 	"/atom.xml": [
 		"src/routes/atom.xml/+server.ts"
 	],
+	"/content/morsay": [
+		"src/routes/+layout.ts"
+	],
 	"/content/seaward": [
 		"src/routes/+layout.ts"
 	],

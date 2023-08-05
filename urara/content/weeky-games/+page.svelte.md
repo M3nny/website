@@ -4,7 +4,7 @@ image: '/content/weeky-games/logo.svg'
 created: 2022-07-14
 tags:
   - 'front-end'
-  - 'API'
+  - 'api'
 ---
 
 ## What is weeky-games?
