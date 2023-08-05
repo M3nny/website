@@ -6,18 +6,17 @@ export const site: SiteConfig = {
   title: "M3nny's website",
   subtitle: "Home",
   lang: 'en-US',
-  description: 'descrizione',
+  description: 'Here i post projects made in my free/non-free time',
   author: {
     avatar: '/assets/maskable@512.png',
     name: 'M3nny',
     status: '☕',
-    bio: 'I like trying out new stuff',
+    bio: 'I love to try new things for the sake of curiosity.',
     metadata: [
       {
         icon: 'i-simple-icons-github',
         link: 'https://github.com/M3nny'
       }
     ]
-  },
-  themeColor: '#3D4451'
+  }
 }
