@@ -12,6 +12,9 @@
 	"/content/seaward": [
 		"src/routes/+layout.ts"
 	],
+	"/content/weeky-games": [
+		"src/routes/+layout.ts"
+	],
 	"/feed.json": [
 		"src/routes/feed.json/+server.ts"
 	],
