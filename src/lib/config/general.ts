@@ -2,13 +2,13 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 
 export const theme: ThemeConfig = [
   {
-    name: 'mocha',
-    text: '🍵 Mocha'
-  },
-  {
     name: 'cupcake',
     text: '🧁 cupcake'
   },
+  {
+    name: 'mocha',
+    text: '🍵 Mocha'
+  }
 ]
 
 export const head: HeadConfig = {}

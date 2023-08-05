@@ -28,6 +28,7 @@ export default {
   plugins: [typography, daisyui],
   daisyui: {
     themes: [
+      "cupcake",
       {
         mocha: {
           primary: "#89b4fa",
@@ -40,8 +41,7 @@ export default {
           warning: "#f9e2af",
           error: "#f38ba8"
         },
-      },
-      "cupcake"
+      }
     ],
   }
 }
