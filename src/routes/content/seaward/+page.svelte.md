@@ -1,6 +1,6 @@
 ---
 title: 'Seaward'
-image: '/content/seaward/ascii.png'
+image: '/content/seaward/logo.png'
 created: 2023-07-13
 tags:
   - 'rust'

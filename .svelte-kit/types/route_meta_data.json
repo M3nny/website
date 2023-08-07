@@ -12,6 +12,9 @@
 	"/content/morsay": [
 		"src/routes/+layout.ts"
 	],
+	"/content/open-sagra": [
+		"src/routes/+layout.ts"
+	],
 	"/content/seaward": [
 		"src/routes/+layout.ts"
 	],

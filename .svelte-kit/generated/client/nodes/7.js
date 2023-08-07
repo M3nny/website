@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/content/toc-disabled/+page.md";
+export { default as component } from "../../../../src/routes/content/weeky-games/+page.svelte.md";

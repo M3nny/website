@@ -8,7 +8,7 @@ tags:
 ---
 
 ## Assignment
-This was a team project on my last year of high school, where the assignment was to develop a mobile app. <br>
+This was a group project on my last year of high school, where the assignment was to develop a mobile app. <br>
 We decided to use [flutter](https://flutter.dev/) since it is a quite new technology, and also we never used dart so it could've been an interesting experience.
 
 ### The idea 💡
@@ -20,6 +20,6 @@ We did not want it to be just a simple written translation, so we added three ad
 - **vibrations**: the phone emmits longer (-) or shorter (.) vibrations
 - **sound**: we used two sounds, one longer for the dashes (-) and one shorter for the dots (.)
 
-<img src="example.png" alt="drawing" width="300"/>
+<img src="showcase.png" width="300"/>
 
 [github repo](https://github.com/M3nny/Morsay)
