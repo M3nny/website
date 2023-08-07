@@ -22,4 +22,4 @@ We did not want it to be just a simple written translation, so we added three ad
 
 <img src="showcase.png" width="300"/>
 
-[github repo](https://github.com/M3nny/Morsay)
+[source code](https://github.com/M3nny/Morsay)

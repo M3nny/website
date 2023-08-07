@@ -19,4 +19,4 @@ The [fresh framework](https://fresh.deno.dev/) uses the _partial hydration_ tech
 this means that a _static page_ is sent to the client after being elaborated by the server, alongside **javascript only for areas that needs it**. <br>
 This will result in fact in a faster loading of the website.
 
-[github repo](https://github.com/M3nny/Weeky-Games)
+[source code](https://github.com/M3nny/Weeky-Games)

@@ -50,4 +50,4 @@ In the login page **it is possible to recover a password** without bothering the
 after following the link under the login, a recovery page will appear and then an email will be sent to the email inserted in the recovery form. <br>
 The email contains a temporary link which will lead to a page to reset the password (_the link is usable only in the same session of the user who requested the password recover_).
 
-[github repo](https://github.com/M3nny/open-sagra)
+[source code](https://github.com/M3nny/open-sagra)
