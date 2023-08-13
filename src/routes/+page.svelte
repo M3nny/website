@@ -83,7 +83,7 @@
             </h2>
             <button on:click={() => (tags = [])} class="btn btn-secondary">
               <span class="i-heroicons-outline-trash mr-2" />
-              tags = []
+              clear tags
             </button>
           </div>
         </div>

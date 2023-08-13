@@ -1,12 +1,12 @@
 {
-  "name": "urara",
+  "name": "m3nny_website",
   "type": "module",
   "version": "0.0.1",
   "license": "WTFPL",
-  "repository": "importantimport/urara",
-  "homepage": "https://github.com/importantimport/urara",
-  "bugs": "https://github.com/importantimport/urara/issues",
-  "author": "藍+85CD",
+  "repository": "M3nny/website",
+  "homepage": "https://github.com/M3nny/website",
+  "bugs": "https://github.com/M3nny/website/issues",
+  "author": "M3nny",
   "scripts": {
     "clean": "node urara.js clean",
     "tsc": "tsc -p tsconfig.node.json",

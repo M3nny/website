@@ -20,6 +20,6 @@ We did not want it to be just a simple written translation, so we added three ad
 - **vibrations**: the phone emmits longer (-) or shorter (.) vibrations
 - **sound**: we used two sounds, one longer for the dashes (-) and one shorter for the dots (.)
 
-<img src="showcase.png" width="300"/>
+<img src="showcase.png" alt="showcase" width="300"/>
 
 [source code](https://github.com/M3nny/Morsay)

@@ -16,4 +16,8 @@ The project is made in **rust** and it is my first time using this language, you
 If you wonder if it is fast, well, it is fast, but _it could be faster_.<br>
 At the moment it uses only 2 threads, where one is used to detect a keyboard interrupt from the user, and the other is the main thread which uses **asynchronous functions** (implemented with a view to implementing a more efficient multithreading system in the future) but at the moment the performance does not differ too much from a sequential approach.
 
+### Showcase
+<img src="showcase/crawl-url.png" alt="crawl-url"/>
+<img src="showcase/crawl-word.png" alt="crawl-word"/>
+
 [source code](https://github.com/M3nny/seaward)

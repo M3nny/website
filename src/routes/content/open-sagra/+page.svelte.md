@@ -23,20 +23,20 @@ The front-end uses [bootstrap](https://getbootstrap.com/) for the UI.
 
 ### User Experience
 > You can open the images at full resolution in another page
-<img src="showcase/login.png"/>
+<img src="showcase/login.png" alt="login"/>
 
 Every user has **limited visibility** (e.g. the bartender will only be able to see the order page) except for the admin. <br>
-<img src="showcase/dashboard.png"/>
+<img src="showcase/dashboard.png" alt="dashboard"/>
 
 #### Managing resources
 It is possible to easily manage proposed **dishes** via a dedicated web-page
-<img src="showcase/alimenti.png"/>
+<img src="showcase/dishes.png" alt="dishes"/>
 
 for the **ingredients** and the **staff** it is similar, but for the ingredients you can also modify the quantity on the storage via web-page.
 
 #### Making an order
 At the checkout the cashier will have a barebone simple interface as well as a confirm page.
-<img src="showcase/checkout.png"/>
+<img src="showcase/checkout.png" alt="checkout"/>
 
 after confirming the order, the ingredients in the database will be decreased automatically according to the dishes that have been ordered. <br>
 The **history of past orders** will also be visible on a dedicated page.
