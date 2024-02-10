@@ -1,43 +1,43 @@
-import type { FFFAuthor } from 'fff-flavored-frontmatter'
+import type { FFFAuthor } from "fff-flavored-frontmatter";
 
 export type SiteConfig = {
   /** site protocol. for example: `https://` */
-  protocol: string
+  protocol: string;
   /** site domain. for example: `example.com` */
-  domain: string
+  domain: string;
   /** site title. */
-  title: string
+  title: string;
   /** site subtitle. */
-  subtitle?: string
+  subtitle?: string;
   /** site lang. `<html lang={site.lang}>` */
-  lang?: string
+  lang?: string;
   /** site description. `<meta name="description" content={site.description}>` */
-  description?: string
+  description?: string;
   /** site keywords. `<meta name="keywords" content={site.keywords}>` */
-  keywords?: string[]
-  author: Omit<FFFAuthor, 'url'> & {
-    status?: string
-    bio?: string
+  keywords?: string[];
+  author: Omit<FFFAuthor, "url"> & {
+    status?: string;
+    bio?: string;
     metadata?: (
       | {
-          text: string
-          icon?: string
-          link?: string
-          rel?: string
+          text: string;
+          icon?: string;
+          link?: string;
+          rel?: string;
         }
       | {
-          text?: string
-          icon: string
-          link?: string
-          rel?: string
+          text?: string;
+          icon: string;
+          link?: string;
+          rel?: string;
         }
-    )[]
-  }
+    )[];
+  };
   /** for web app manifest only.
    * ```
    * "background_color": {site.themeColor},
    * "theme_color": {site.themeColor}
    * ```
    */
-  themeColor?: string
-}
+  themeColor?: string;
+};

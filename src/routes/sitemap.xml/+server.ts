@@ -1,6 +1,6 @@
-import type { RequestHandler } from './$types'
-import { site } from '$lib/config/site'
-import { genPosts } from '$lib/utils/posts'
+import type { RequestHandler } from "./$types";
+import { site } from "$lib/config/site";
+import { genPosts } from "$lib/utils/posts";
 
 const render = (): string =>
   `<?xml version='1.0' encoding='utf-8'?>
@@ -16,21 +16,23 @@ const render = (): string =>
     </url>
     ${genPosts()
       .map(
-        post => `
+        (post) => `
         <url>
             <loc>${site.protocol + site.domain + post.path}</loc>
-            <lastmod>${new Date(post.updated ?? post.published ?? post.created).toISOString()}</lastmod>
+            <lastmod>${new Date(
+              post.updated ?? post.published ?? post.created
+            ).toISOString()}</lastmod>
             <priority>0.5</priority>
         </url>`
       )
-      .join('')}
-  </urlset>`.trim()
+      .join("")}
+  </urlset>`.trim();
 
-export const prerender = true
-export const trailingSlash = 'never'
+export const prerender = true;
+export const trailingSlash = "never";
 export const GET: RequestHandler = async () =>
   new Response(render(), {
     headers: {
-      'content-type': 'application/xml; charset=utf-8'
-    }
-  })
+      "content-type": "application/xml; charset=utf-8",
+    },
+  });

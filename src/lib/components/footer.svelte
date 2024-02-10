@@ -2,11 +2,16 @@
   import { site } from '$lib/config/site'
   import { footer as footerConfig } from '$lib/config/general'
   let className: string | undefined = undefined
+  export { className as class }
+  export let sticky: boolean = false
+  export let rounded: boolean = false
 </script>
 
 <footer
   id="footer"
-  class="footer footer-center">
+  class="footer footer-center bg-base-300 text-base-content shadow-inner p-8 {rounded
+    ? 'rounded-box'
+    : 'md:rounded-box'} {sticky ? 'sticky bottom-0 z-0 md:static' : ''} {className ?? ''}">
   <div class="prose">
     <p>
       {#if footerConfig.nav}

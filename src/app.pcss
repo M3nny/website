@@ -136,15 +136,23 @@ pre.shiki > .code-container {
   @apply overflow-auto;
 }
 
-:is(pre.shiki[text='true'], pre.shiki[svelte='true']) > div.code-container {
+:is(pre.shiki[text="true"], pre.shiki[svelte="true"]) > div.code-container {
   @apply mx-5;
 }
 
-pre.shiki:not([text='true'], [svelte='true']) > .code-container > code > div.line > span:first-child {
+pre.shiki:not([text="true"], [svelte="true"])
+  > .code-container
+  > code
+  > div.line
+  > span:first-child {
   @apply pl-5;
 }
 
-pre.shiki:not([text='true'], [svelte='true']) > .code-container > code > div.line > span:last-child {
+pre.shiki:not([text="true"], [svelte="true"])
+  > .code-container
+  > code
+  > div.line
+  > span:last-child {
   @apply pr-5;
 }
 

@@ -6,11 +6,13 @@
 Here you can find some of my projects and the ideas behind them.
 
 This site has been done thanks to the [urara](https://urara-docs.netlify.app/) template, which uses:
+
 - [sveltekit](https://kit.svelte.dev/) as the app framework
-- [mdsvex](https://mdsvex.pngwn.io/) as the markdown preprocessor 
+- [mdsvex](https://mdsvex.pngwn.io/) as the markdown preprocessor
 - [daisyui](https://daisyui.com/) for the themes
 
 ### Run locally
+
 ```bash
 git clone https://github.com/M3nny/website && cd website
 pnpm i

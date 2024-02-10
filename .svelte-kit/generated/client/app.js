@@ -18,8 +18,8 @@ export const dictionary = {
 		"/about": [3],
 		"/content/morsay": [4],
 		"/content/open-sagra": [5],
-		"/content/seaward": [6],
-		"/content/weeky-games": [7]
+		"/content/seaward": [7],
+		"/content/weeky-games": [6]
 	};
 
 export const hooks = {
