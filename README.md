@@ -15,6 +15,6 @@ This site has been done thanks to the [urara](https://urara-docs.netlify.app/) t
 
 ```bash
 git clone https://github.com/M3nny/website && cd website
-pnpm i
-pnpm dev
+bun install
+bun run dev
 ```
