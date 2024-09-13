@@ -5,7 +5,7 @@ export const site: SiteConfig = {
     import.meta.env.URARA_SITE_PROTOCOL ?? import.meta.env.DEV
       ? "http://"
       : "https://",
-  domain: import.meta.env.URARA_SITE_DOMAIN ?? "m3nny.me",
+  domain: import.meta.env.URARA_SITE_DOMAIN ?? "m3nny.dev",
   title: "M3nny's website",
   subtitle: "Home",
   lang: "en-US",

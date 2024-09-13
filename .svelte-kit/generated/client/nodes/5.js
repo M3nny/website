@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/content/open-sagra/+page.svelte.md";
+export { default as component } from "../../../../src/routes/content/bonfire/+page.svelte.md";

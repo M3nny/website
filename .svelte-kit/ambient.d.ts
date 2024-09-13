@@ -31,6 +31,7 @@ declare module '$env/static/private' {
 	export const WAYLAND_DISPLAY: string;
 	export const PATH: string;
 	export const NAME: string;
+	export const DENO_INSTALL: string;
 	export const npm_lifecycle_event: string;
 	export const WSL2_GUI_APPS_ENABLED: string;
 	export const WT_SESSION: string;
@@ -47,6 +48,7 @@ declare module '$env/static/private' {
 	export const npm_config_user_agent: string;
 	export const LOGNAME: string;
 	export const SHLVL: string;
+	export const OLDPWD: string;
 	export const npm_package_name: string;
 	export const OPENAI_API_KEY: string;
 	export const WSL_DISTRO_NAME: string;
@@ -100,6 +102,7 @@ declare module '$env/dynamic/private' {
 		WAYLAND_DISPLAY: string;
 		PATH: string;
 		NAME: string;
+		DENO_INSTALL: string;
 		npm_lifecycle_event: string;
 		WSL2_GUI_APPS_ENABLED: string;
 		WT_SESSION: string;
@@ -116,6 +119,7 @@ declare module '$env/dynamic/private' {
 		npm_config_user_agent: string;
 		LOGNAME: string;
 		SHLVL: string;
+		OLDPWD: string;
 		npm_package_name: string;
 		OPENAI_API_KEY: string;
 		WSL_DISTRO_NAME: string;
