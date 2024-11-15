@@ -13,7 +13,7 @@ tags:
 This academic year we were asked to <u>build a web app as a group project for the database course</u>, we could have chosen between an e-commerce or a social network. <br>
 My group and I decided to stick with the **social network** for the freedom it would give us.
 
-The rules were simple: "the web app must use [flask](https://flask.palletsprojects.com/en/3.0.x/), [sqlalchemy](https://www.sqlalchemy.org/) and [postgreqsl](https://www.postgresql.org/)", and so we did, but we were given absolute freedom in every other aspect of the project.
+The rules were simple: "the web app must use [flask](https://flask.palletsprojects.com/en/3.0.x/), [sqlalchemy](https://www.sqlalchemy.org/) and [postgresql](https://www.postgresql.org/)", and so we did, but we were given absolute freedom in every other aspect of the project.
 
 Since the project is already well documented [here](https://github.com/M3nny/bonfire/blob/main/README.md), on this page <u>I will only discuss some of our thought processes</u> and implementation choices.
 
@@ -47,11 +47,11 @@ Interests are represented by **tags**, which are limited and chosen by the app o
 
 When creating a post, multiple tags can be included, and when another user interacts with it, the user's interests are changed according the tags in the post:
 - **Increasing** the interest for the _included tags_
-- **Decresing a bit** the interest for _non included tags_
+- **Decreasing a bit** the interest for _non included tags_
 
 In this way we can always suggest an ad based on the user's **trending interest**.
 
-## Ads recommandation
+## Ads recommendation
 With each chunk of posts the server sends to the frontend, it also sends an ad, which in order to be chosen must belong to an ad campaign that has <u>enough budget to pay the expected fees</u> and that targets the user's trending interest.
 
 Once the ad campaign is chosen the ad is picked based on the percentage of appearance selected by the advertiser.

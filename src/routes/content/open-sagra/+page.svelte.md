@@ -18,7 +18,7 @@ the software allows to **create and manage users, and resources** (e.g. dishes a
 
 ### The tech stack
 
-The backend is built with _python_ using the [flask](https://flask.palletsprojects.com/) framework to interact dinamically with the webpages and to
+The backend is built with _python_ using the [flask](https://flask.palletsprojects.com/) framework to interact dynamically with the webpages and to
 make queries to the _MySQL_ database.
 The front-end uses [bootstrap](https://getbootstrap.com/) for the UI.
 
@@ -39,7 +39,7 @@ for the **ingredients** and the **staff** it is similar, but for the ingredients
 
 #### Making an order
 
-At the checkout the cashier will have a barebone simple interface as well as a confirm page.
+At the checkout the cashier will have a bare bone simple interface as well as a confirm page.
 <img src="showcase/checkout.png" alt="checkout"/>
 
 after confirming the order, the ingredients in the database will be decreased automatically according to the dishes that have been ordered. <br>
